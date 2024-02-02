@@ -1,5 +1,7 @@
 .App {
+  background-image: url(C:\Users\Corey\cars\img\_ae9e9525-ab48-47f0-81e8-21167682dcbd.jpg);
   text-align: center;
+  color: black;
 }
 
 .App-logo {
@@ -36,3 +38,4 @@
     transform: rotate(360deg);
   }
 }
+
