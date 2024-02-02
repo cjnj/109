@@ -39,3 +39,9 @@
   }
 }
 
+/* Add this to your CSS file (e.g., App.css) */
+.App {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: black;
+}
