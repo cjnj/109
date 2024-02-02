@@ -1,13 +1,27 @@
 import "./catalog.css";
 import Product from "../products";
-
+import { useEffect, useState } from "react";
+import DataService from "../../services/dataservice";
 
 function Catalog(){
 
+    const [productsState,setProducts] = useState ([]);
+
+    useEffect(function(){
+        console.log("component is loaded");
+        loadCatalog();
+    },[]);
+
+    function loadCatalog(){
+        let service = new DataService();
+        let products = service.getProducts();
+        setProducts(products);
+        console.log(products);
+    }
 
     return(
         <div>
-        <h1>Here Look at my awsome products!</h1>
+        <h1>Look at my awsome{productsState.length} products!</h1>
         <Product></Product>
         <Product></Product>
         <Product></Product>
