@@ -2,7 +2,7 @@ import "./products.css";
 import QuantityPicker from "./quantitypicker";
 import { useEffect } from "react";
 
-function Product(){
+function Product(props){
 
     useEffect(function(){
         console.log("Hello im a product");
@@ -12,8 +12,8 @@ function Product(){
 
     return(
         <div className="product">
-            <img src="https://picsum.photos/200/300"alt=""></img>
-            <h5>Hello im a Product</h5>
+            <img src={"/images/"+props.data.image} alt=""></img>
+            <h5>{props.data.title}</h5>
             <QuantityPicker></QuantityPicker>
             
         </div>

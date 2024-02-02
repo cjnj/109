@@ -22,12 +22,12 @@ function Catalog(){
     return(
         <div>
         <h1>Look at my awsome{productsState.length} products!</h1>
+        {productsState.map(productArrow => <Product data={productArrow}></Product>)}
         <Product></Product>
         <Product></Product>
         <Product></Product>
         <Product></Product>
         <Product></Product>
-        
         </div>
     );
 }

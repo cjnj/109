@@ -16,3 +16,8 @@
 .card-body {
     text-align: center;
 }
+
+.product img{
+    width: 180px;
+    height: 180px;
+}

@@ -5,7 +5,7 @@ let catalog = [
         "category":"red flag",
         "price": 20.00,
         "image":"_866d7798-2ef7-4fbe-b5bf-780a168a50f5.jpg",
-        "_id": "1"
+        "_id": "1",
 
     },
     {
