@@ -21,5 +21,4 @@ function App() {
 
 export default App;
 
-//crate a footer for the page
 
