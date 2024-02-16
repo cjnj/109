@@ -26,9 +26,9 @@ const[quantity,setQuantity] = useState (1);
     
     return(
         <div className="quantityPicker">
-        <button  className="btn btn-outline-primary btn-lg" disabled = {quantity===1} onClick={decrease}>-</button>
+        <button  className="btn btn-outline-primary btn-sm" disabled = {quantity===1} onClick={decrease}>-</button>
         <label>{quantity}</label>
-        <button  className="btn btn-outline-primary btn-lg" onClick={increase}>+</button>
+        <button  className="btn btn-outline-primary btn-sm" onClick={increase}>+</button>
         </div>
     );
 }
