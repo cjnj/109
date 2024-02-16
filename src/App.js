@@ -17,7 +17,7 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
-      <h1>Hello World</h1>
+      <h1>Hello Universe</h1>
       <Navbar></Navbar>
 
       <Routes>
