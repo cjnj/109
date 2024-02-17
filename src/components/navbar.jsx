@@ -40,6 +40,12 @@ function Navbar() {
                 About
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" to="/admin">
+                Admin
+              </Link>
+            </li>
           </ul>
           <form className="d-flex" role="search">
             <input
